@@ -32,7 +32,7 @@ angular.module('app', []).controller('indexController', function ($scope, $http)
 
     $scope.loadProducts = function () {
         $http({
-            url: 'http://localhost:5555/product-service/api/v1/products',
+            url: 'http://localhost:51587/api/v1/products/front',
             method: 'GET'
         }).then(function (response) {
             $scope.products = response.data;
