@@ -43,6 +43,10 @@
             <scope>runtime</scope>
         </dependency>
         <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.flamexander</groupId>
             <artifactId>advanced-cloud-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
